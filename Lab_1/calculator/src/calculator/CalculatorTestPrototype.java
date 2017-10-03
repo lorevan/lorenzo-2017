@@ -34,6 +34,13 @@ public class CalculatorTestPrototype {
     }
 
     @Test
+    public void testSub3() {
+        CalculatorPrototype calculator = new CalculatorPrototype();
+        int sub = calculator.subtract(-9,-4);
+        assertEquals(-5, sub);
+    }
+
+    @Test
     public void testMult() {
         CalculatorPrototype calculator = new CalculatorPrototype();
         int mult = calculator.multiply(5,4);

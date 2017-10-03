@@ -8,6 +8,7 @@ public class Calc
         ctp.testSum2();
         ctp.testSub();
         ctp.testSub2();
+        ctp.testSub3();
         ctp.testMult();
         ctp.testMult2();
         ctp.testMult3();
